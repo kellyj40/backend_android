@@ -25,7 +25,7 @@ SECRET_KEY = 'g0dbl&uzk^9)d$^pv0bx%p)fuc2z7m-y0_dadg346ip+d(d^d&'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ["*"]
+ALLOWED_HOSTS = ['dublinbusplanners.com', 'www.dublinbusplanners.com', '13.59.19.83', '127.0.0.1', 'localhost',"*"]
 
 
 # Application definition
@@ -118,4 +118,6 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/1.10/howto/static-files/
 
+STATIC_ROOT = 'home/ubuntu/backend_android/androidBackend/androidBackend/static'
 STATIC_URL = '/static/'
+
